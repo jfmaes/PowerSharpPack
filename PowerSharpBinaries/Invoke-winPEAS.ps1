@@ -21,4 +21,4 @@ $RAS = [System.Reflection.Assembly]::Load([Convert]::FromBase64String($base64bin
     $Results
 
 }
-Invoke-winPEAS
+
